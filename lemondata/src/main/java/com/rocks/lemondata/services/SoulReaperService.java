@@ -5,7 +5,7 @@ import com.rocks.lemondata.entities.SoulReaper;
 import java.util.List;
 
 public interface SoulReaperService {
-    void AddSoulReaper(Long id, String name, int squad);
+    void addSoulReaper(Long id, String name, int squad);
 
     SoulReaper getSoulReaperByName(String name);
 

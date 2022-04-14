@@ -16,7 +16,7 @@ public class SoulReaperServiceImpl implements SoulReaperService {
         this.repository = repository;
     }
 
-    public void AddSoulReaper(Long id, String name, int squad) {
+    public void addSoulReaper(Long id, String name, int squad) {
         repository.save(new SoulReaper(id, name, squad));
     }
 

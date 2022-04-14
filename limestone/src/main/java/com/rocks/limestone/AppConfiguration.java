@@ -14,9 +14,9 @@ public class AppConfiguration {
     @Bean
     public CommandLineRunner commandLineRunner(SoulReaperService service) {
         return args -> {
-            service.AddSoulReaper(1L,"Genryusai Shigekuni Yamamoto",1);
-            service.AddSoulReaper(2L,"Soifon",2);
-            service.AddSoulReaper(3L,"Gin Ichimaru",3);
+            service.addSoulReaper(1L,"Genryusai Shigekuni Yamamoto",1);
+            service.addSoulReaper(2L,"Soifon",2);
+            service.addSoulReaper(3L,"Gin Ichimaru",3);
         };
     }
 }
